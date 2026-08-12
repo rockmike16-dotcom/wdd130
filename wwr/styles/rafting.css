@@ -354,7 +354,24 @@ footer {
     padding: 20px;
 }
 
-/* Trips Page */
+/* ================================
+   TRIPS PAGE
+   ================================ */
+
+.trip-cta {
+    text-align: center;
+    margin: 30px 0;
+    padding: 20px;
+}
+
+.trip-cta a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* TRIP CARDS */
 
 .trip-container {
     display: grid;
@@ -376,22 +393,45 @@ footer {
 }
 
 .trip h2 {
-    margin-top: 10px;
+    margin: 15px 0 10px;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
+.trip p {
+    line-height: 1.5;
 }
 
-th,
-td {
-    border: 1px solid #333;
-    padding: 10px;
+/* TRIP TABLE */
+
+.trip-table {
+    margin: 40px 0;
+}
+
+.trip-table h2 {
     text-align: center;
 }
 
-th {
-    font-weight: bold;
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table th,
+.trip-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 700px) {
+
+    .trip-container {
+        grid-template-columns: 1fr;
+    }
+
+    .trip-table {
+        overflow-x: auto;
+    }
+
 }
