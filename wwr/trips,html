@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+      content="Explore our exciting white water rafting trips, adventure packages, prices, and trip information.">
+
+    <meta name="author" content="Michael El-David Idjogbe">
+
+    <title>Rafting Trips | White Water Rafting</title>
+
+    <link rel="stylesheet" href="styles/rafting.css">
+
+</head>
+
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <img src="images/logo.png" alt="Rapids Rafting Company Logo">
+
+        <nav>
+
+            <a href="index.html">Home</a>
+
+            <a href="about.html">About Us</a>
+
+            <a href="trips.html">Trips</a>
+
+            <a href="contact.html">Contact Us</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main>
+
+        <h1>Our Rafting Trips</h1>
+
+        <p>
+            Come and enjoy an exciting rafting adventure with us.
+            We have different trips for families, beginners,
+            and experienced rafters.
+        </p>
+
+
+        <!-- CALL TO ACTION -->
+
+        <section class="trip-cta">
+
+            <h2>Ready for an Adventure?</h2>
+
+            <p>
+                Do you have questions or want to make a reservation?
+                Contact us today.
+            </p>
+
+            <a href="contact.html">
+                Contact Us
+            </a>
+
+        </section>
+
+
+        <!-- TRIP DESCRIPTIONS -->
+
+        <section class="trip-container">
+
+
+            <!-- TRIP 1 -->
+
+            <div class="trip">
+
+                <img src="images/family-rafting.jpg" alt="Family rafting">
+
+                <h2>Family Adventure</h2>
+
+                <p>
+                    Enjoy a fun and safe rafting adventure
+                    with your family. This trip is suitable
+                    for beginners and families.
+                </p>
+
+                <p>
+                    <strong>Duration:</strong> 2 Hours
+                </p>
+
+                <p>
+                    <strong>Difficulty:</strong> Easy
+                </p>
+
+            </div>
+
+
+            <!-- TRIP 2 -->
+
+            <div class="trip">
+
+                <img src="images/famiky.jpg" alt="Rafting on a mountain river">
+
+                <h2>Mountain Rush</h2>
+
+                <p>
+                    Enjoy the beautiful scenery while
+                    experiencing exciting river rapids.
+                    This trip is perfect for adventure lovers.
+                </p>
+
+                <p>
+                    <strong>Duration:</strong> 4 Hours
+                </p>
+
+                <p>
+                    <strong>Difficulty:</strong> Moderate
+                </p>
+
+            </div>
+
+
+            <!-- TRIP 3 -->
+
+            <div class="trip">
+
+                <img src="images/family 3.jpg" alt="Extreme white water rafting">
+
+                <h2>Extreme Rapids</h2>
+
+                <p>
+                    Experience strong rapids and an exciting
+                    adventure. This trip is recommended for
+                    experienced rafters.
+                </p>
+
+                <p>
+                    <strong>Duration:</strong> 6 Hours
+                </p>
+
+                <p>
+                    <strong>Difficulty:</strong> Difficult
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- TRIP TABLE -->
+
+        <section class="trip-table">
+
+            <h2>Available Trips</h2>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Trip</th>
+
+                        <th>Duration</th>
+
+                        <th>Difficulty</th>
+
+                        <th>Price</th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    <tr>
+
+                        <td>Family Adventure</td>
+
+                        <td>2 Hours</td>
+
+                        <td>Easy</td>
+
+                        <td>$45</td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>Mountain Rush</td>
+
+                        <td>4 Hours</td>
+
+                        <td>Moderate</td>
+
+                        <td>$75</td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>Extreme Rapids</td>
+
+                        <td>6 Hours</td>
+
+                        <td>Difficult</td>
+
+                        <td>$120</td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            &copy; 2026 Rapids Rafting Company |
+            Michael El-David Idjogbe
+        </p>
+
+
+        <nav class="socialmedia">
+
+            <a href="https://facebook.com">
+
+                <img src="images/facebook.png" alt="Facebook">
+
+            </a>
+
+
+            <a href="https://instagram.com">
+
+                <img src="images/instagram.png" alt="Instagram">
+
+            </a>
+
+
+            <a href="https://twitter.com">
+
+                <img src="images/twitter.png" alt="Twitter">
+
+            </a>
+
+        </nav>
+
+    </footer>
+
+
+</body>
+
+</html>
