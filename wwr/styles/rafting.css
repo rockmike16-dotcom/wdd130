@@ -329,29 +329,214 @@ footer {
 
 }
 
-/* water Section */
+/* =========================
+   HOME PAGE CSS
+   ========================= */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* HEADER */
+
+header {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 15px;
+
+    display: grid;
+    grid-template-columns: 180px 1fr;
+
+    align-items: center;
+}
+
+header img {
+    width: 150px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+header nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* MAIN */
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* HERO */
+
 .water {
     position: relative;
-    width: 100%;
 }
 
 .water img {
     width: 100%;
-    height: 450px;
+    height: 400px;
     object-fit: cover;
-    display: block;
 }
 
 .water h1 {
     position: absolute;
-    top: 50%;
+
+    top: 40%;
     left: 50%;
+
     transform: translate(-50%, -50%);
+
     width: 80%;
+
     text-align: center;
+
+    padding: 15px;
+
     color: white;
+
     background-color: rgba(0, 0, 0, 0.6);
-    padding: 20px;
+}
+
+/* NEWSLETTER */
+
+.newsletter {
+    text-align: center;
+
+    padding: 30px;
+
+    margin: 30px 0;
+}
+
+.newsletter form {
+    max-width: 500px;
+    margin: 0 auto;
+
+    display: grid;
+    gap: 10px;
+}
+
+.newsletter input {
+    padding: 10px;
+}
+
+.newsletter button {
+    padding: 10px;
+
+    cursor: pointer;
+}
+
+/* CALL TO ACTION */
+
+.call-to-action {
+    text-align: center;
+
+    padding: 30px;
+
+    margin: 30px 0;
+}
+
+.call-to-action a {
+    display: inline-block;
+
+    padding: 10px 20px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+/* HOME GRID */
+
+.home-grid {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 30px;
+
+    margin: 30px 0;
+}
+
+/* HOME CARDS */
+
+.home-card {
+    padding: 15px;
+
+    border: 1px solid #ccc;
+
+    background-color: white;
+}
+
+.home-card img {
+    width: 100%;
+
+    height: 220px;
+
+    object-fit: cover;
+}
+
+.home-card h2 {
+    text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+
+    padding: 25px;
+
+    margin-top: 40px;
+}
+
+.socialmedia {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+}
+
+.socialmedia img {
+    width: 35px;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 700px) {
+
+    header {
+        grid-template-columns: 1fr;
+
+        text-align: center;
+    }
+
+    header img {
+        margin: 0 auto;
+    }
+
+    header nav {
+        justify-content: center;
+
+        flex-wrap: wrap;
+    }
+
+    .home-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .water img {
+        height: 300px;
+    }
+
 }
 
 /* ================================
